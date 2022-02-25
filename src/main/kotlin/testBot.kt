@@ -5,7 +5,6 @@ import java.util.Scanner
 
 class testBot: TelegramLongPollingBot() {
     override fun getBotToken(): String {
-//        return "5108705273:AAEuDMoxS5ytwv-TpeEhZwlShjlP6w66JNM"
         return readToken()
     }
 
